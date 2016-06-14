@@ -8,7 +8,7 @@ This Device is available from ControlEverything.com [SKU: AS1115_I2CL_3CE]
 
 https://www.controleverything.com/content/LED-Display?sku=AS1115_I2CL_3CE
 
-This Sample code can be used with Raspberry pi, Arduino and Particle.
+This Sample code can be used with Raspberry pi, Arduino, Particle and Beaglebone Black.
 
 ## Java
 Download and install pi4j library on Raspberry pi. Steps to install pi4j are provided at:
@@ -62,4 +62,16 @@ Verify and flash the code on your Photon. Code output is shown in logs at dashbo
 
 https://dashboard.particle.io/user/logs
 
+## C
+
+Download (or git pull) the code in Beaglebone Black.
+
+Compile the c program.
+```cpp
+$>gcc AS1115.c -o AS1115
+```
+Run the c program.
+```cpp
+$>./AS1115
+```
 #####The code display the hexadecimal values from 0 to F.
