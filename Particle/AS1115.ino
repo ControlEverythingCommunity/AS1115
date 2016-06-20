@@ -88,6 +88,6 @@ void loop()
     }
     // Output to dashboard
     Particle.publish("Display on 7-segment : ", String(data));
-    delay(800);
+    delay(1000);
   }
 }
